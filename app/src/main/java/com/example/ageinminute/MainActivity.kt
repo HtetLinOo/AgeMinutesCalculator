@@ -44,6 +44,7 @@ class MainActivity : AppCompatActivity() {
            val selectedDateInMinutes = theDate!!.time / 60000
 
          //   val theDate=sdf.format(selectedDate)
+            //   val theDate=sdf.format(selectedDate)
          //   val selectedDateInMinutes=theDate!!.get(Calendar.DAY_OF_WEEK)
 
          val currentdate = sdf.parse(sdf.format(System.currentTimeMillis()))
